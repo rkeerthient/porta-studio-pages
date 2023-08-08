@@ -14,22 +14,10 @@
 	},
 	"businessId": 3222344,
 	"c_featuredFAQs": [
-		{
-			"answer": "Ja, wir akzeptieren Kreditkarten sowie mobile Zahlungsmethoden, um Ihnen eine bequeme Bezahlung zu ermöglichen.",
-			"question": "Akzeptieren Sie Kreditkarten und mobile Zahlungen?"
-		},
-		{
-			"answer": "Ja, wir stellen Montageanleitungen für Möbel zur Verfügung, die Sie selbst zusammenbauen können, um Ihnen den Prozess zu erleichtern.",
-			"question": "Bieten Sie auch eine Montageanleitung für selbstmontierbare Möbel an?"
-		},
-		{
-			"answer": "Ja, wir bieten eine breite Auswahl an Möbeln für gewerbliche Einrichtungen wie Büros, Restaurants und Hotels an.",
-			"question": "Bieten Sie auch Möbel für gewerbliche Zwecke an?"
-		},
-		{
-			"answer": "Ja, wir bieten einen Aufbauservice vor Ort an, falls Sie dies bevorzugen. Unsere Mitarbeiter können Ihre Möbel in Ihrem Haus montieren, nachdem sie geliefert wurden. Bitte fragen Sie unser Personal nach den Kosten und der Verfügbarkeit.",
-			"question": "Bieten Sie einen Aufbauservice vor Ort an?"
-		}
+		43172135,
+		43172152,
+		43172140,
+		43172124
 	],
 	"description": "Das porta Möbelhaus überzeugt mit seinem Möbel-Angebot auf Weltstadt-Niveau und liefert aktuelle Wohnideen für alle Bereiche des Wohnens und Einrichtens.   Das riesige Sortiment (Wohnzimmer, Polstermöbel, Esszimmer, Schlafzimmer, Bad/Wellness, Kinder- und Jugendzimmer, Küche, Büro, Flur/Diele, Teppiche) besticht durch Vielfalt und bekannte Marken wie z.B. hülsta, Rolf Benz oder nobilia-Küchen. Im Bereich Quartier gibt es zu einem großen Teil auch Mitnahme-Möbel. Ergänzt wird das porta Möbelangebot durch ein inspirierendes Boutique-Sortiment.",
 	"id": "3163172623900131490",

@@ -1,0 +1,49 @@
+{
+  "__": {
+    "entityPageSet": {},
+    "name": "event-page",
+    "streamId": "studio-stream-id",
+    "templateType": "JS"
+  },
+  "businessId": 3222344,
+  "c_featuredFAQs": [43172146, 43172139],
+  "description": "Kitching planning event. What are options, what are trends, etc.",
+  "id": "8997498251189936310",
+  "key": "0:event-page:knowledgeGraph:44268322:de",
+  "linkedLocation": {
+    "address": {
+      "city": "Berlin",
+      "countryCode": "DE",
+      "line1": "Direkt an der B1/B5",
+      "line2": "Alt-Mahlsdorf 85",
+      "postalCode": "12623"
+    }
+  },
+  "locale": "de",
+  "meta": {
+    "entityType": {
+      "id": "ce_events",
+      "uid": 122968
+    },
+    "locale": "de"
+  },
+  "name": "Test Event",
+  "photoGallery": [
+    {
+      "image": {
+        "height": 1100,
+        "url": "https://a.mktgcdn.com/p-sandbox/nmnGsL23rnIAqGIkx0J1Jej4Bdh-i7zlbjADi08Qfd8/1500x1100.jpg",
+        "width": 1500
+      }
+    }
+  ],
+  "siteDomain": "",
+  "siteId": 0,
+  "siteInternalHostName": "",
+  "slug": "events/8997498251189936310",
+  "time": {
+    "end": "2023-08-14T17:00",
+    "start": "2023-08-14T13:00"
+  },
+  "uid": 44268322
+}

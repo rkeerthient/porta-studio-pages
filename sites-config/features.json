@@ -11,6 +11,12 @@
       "streamId": "my-stream-id-1",
       "templateType": "JS",
       "entityPageSet": {}
+    },
+    {
+      "name": "event-page",
+      "streamId": "studio-stream-id",
+      "templateType": "JS",
+      "entityPageSet": {}
     }
   ],
   "streams": [
@@ -44,22 +50,44 @@
         "primary": false
       },
       "fields": [
+        "logo",
         "name",
         "description",
         "photoGallery",
-        "c_featuredFAQs.question",
-        "c_featuredFAQs.answer",
         "address",
         "mainPhone",
         "paymentOptions",
-        "slug",
-        "logo"
+        "c_featuredFAQs",
+        "slug"
       ],
       "filter": {
         "entityTypes": [
           "location"
         ]
       }
+    },
+    {
+      "$id": "studio-stream-id",
+      "localization": {
+        "locales": [
+          "de"
+        ],
+        "primary": false
+      },
+      "filter": {
+        "entityTypes": [
+          "ce_events"
+        ]
+      },
+      "fields": [
+        "name",
+        "description",
+        "time",
+        "linkedLocation.address",
+        "photoGallery",
+        "c_featuredFAQs",
+        "slug"
+      ]
     }
   ]
 }
