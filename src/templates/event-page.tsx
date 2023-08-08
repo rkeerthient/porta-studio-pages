@@ -18,7 +18,7 @@ import VStack from "../components/VStack";
 
 export const config: TemplateConfig = {
   stream: {
-    $id: "studio-stream-id",
+    $id: "my-stream-id-2",
     localization: { locales: ["de"], primary: false },
     filter: { entityTypes: ["ce_events"] },
     fields: [
