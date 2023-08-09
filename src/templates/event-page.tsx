@@ -7,7 +7,6 @@ import {
 } from "@yext/pages";
 import CenteredContainer from "../components/CenteredContainer";
 import DateTime from "../components/DateTime";
-import FAQsAccordion from "../components/FAQsAccordion";
 import GridContainer from "../components/GridContainer";
 import Headline from "../components/Headline";
 import Label from "../components/Label";
@@ -25,10 +24,8 @@ export const config: TemplateConfig = {
       "name",
       "description",
       "time",
-      "linkedLocation.address",
+      "linkedLocation",
       "photoGallery",
-      "c_featuredFAQs.question",
-      "c_featuredFAQs.answer",
       "slug",
     ],
   },
@@ -81,23 +78,6 @@ const EventPage: Template<TemplateRenderProps> = ({
             alt="Light green backpack with black canvas straps and front zipper pouch."
           />
         </GridContainer>
-        <FAQsAccordion
-          faqs={[
-            {
-              question: `${document.c_featuredFAQs[0].question}`,
-              answer: `${document.c_featuredFAQs[0].answer}`,
-            },
-            {
-              question: `${document.c_featuredFAQs[1].question}`,
-              answer: `${document.c_featuredFAQs[1].answer}`,
-            },
-            {
-              question: `${document.c_featuredFAQs[2].question}`,
-              answer: `${document.c_featuredFAQs[2].answer}`,
-            },
-          ]}
-          title={`Häufig gestellte Fragen`}
-        />
       </CenteredContainer>
     </PageLayout>
   );
