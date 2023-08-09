@@ -7,13 +7,14 @@ import {
 } from "@yext/pages";
 import CenteredContainer from "../components/CenteredContainer";
 import DateTime from "../components/DateTime";
+import FAQsAccordion from "../components/FAQsAccordion";
 import GridContainer from "../components/GridContainer";
+import HeaderSimple from "../components/HeaderSimple";
 import Headline from "../components/Headline";
 import PageLayout from "../components/PageLayout";
 import Paragraph from "../components/Paragraph";
 import ProductImage from "../components/ProductImage";
 import VStack from "../components/VStack";
-import FAQsAccordion from "../components/FAQsAccordion";
 
 export const config: TemplateConfig = {
   stream: {
@@ -25,9 +26,8 @@ export const config: TemplateConfig = {
       "description",
       "time",
       "photoGallery",
+      "c_featuredFAQs",
       "slug",
-      "c_featuredFAQs.question",
-      "c_featuredFAQs.answer",
     ],
   },
 };
@@ -42,6 +42,9 @@ const EventPage: Template<TemplateRenderProps> = ({
 }: TemplateProps) => {
   return (
     <PageLayout backgroundColor="#FFFFFF">
+      <HeaderSimple
+        logo={`https://a.mktgcdn.com/p-sandbox/nmnGsL23rnIAqGIkx0J1Jej4Bdh-i7zlbjADi08Qfd8/1500x1100.jpg`}
+      />
       <CenteredContainer>
         <GridContainer>
           <VStack>
