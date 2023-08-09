@@ -9,7 +9,6 @@ import CenteredContainer from "../components/CenteredContainer";
 import DateTime from "../components/DateTime";
 import GridContainer from "../components/GridContainer";
 import Headline from "../components/Headline";
-import Label from "../components/Label";
 import PageLayout from "../components/PageLayout";
 import Paragraph from "../components/Paragraph";
 import ProductImage from "../components/ProductImage";
@@ -20,14 +19,7 @@ export const config: TemplateConfig = {
     $id: "my-stream-id-2",
     localization: { locales: ["de"], primary: false },
     filter: { entityTypes: ["ce_events"] },
-    fields: [
-      "name",
-      "description",
-      "time",
-      "linkedLocation",
-      "photoGallery",
-      "slug",
-    ],
+    fields: ["name", "description", "time", "photoGallery", "slug"],
   },
 };
 export const getPath: GetPath<TemplateProps> = ({
@@ -66,11 +58,6 @@ const EventPage: Template<TemplateRenderProps> = ({
             <DateTime
               value={`Endzeit -  ${document.time.end}`}
               showOnlyDate={false}
-            />
-            <Headline value={`Standort`} textSize="xl" fontWeight="medium" />
-            <Label value={`${document.linkedLocation.address.line1}`} />
-            <Label
-              value={`${document.linkedLocation.address.city},  ${document.linkedLocation.address.countryCode} - ${document.linkedLocation.address.postalCode}`}
             />
           </VStack>
           <ProductImage
