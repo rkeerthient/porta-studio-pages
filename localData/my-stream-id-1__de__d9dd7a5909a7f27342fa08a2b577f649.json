@@ -1,0 +1,81 @@
+{
+	"__": {
+		"entityPageSet": {},
+		"name": "location-page",
+		"streamId": "my-stream-id-1",
+		"templateType": "JS"
+	},
+	"address": {
+		"city": "Berlin",
+		"countryCode": "DE",
+		"line1": "Direkt an der B1/B5",
+		"line2": "Alt-Mahlsdorf 85",
+		"localizedCountryName": "Deutschland",
+		"postalCode": "12623"
+	},
+	"businessId": 3222344,
+	"c_featuredFAQs": [
+		{
+			"answer": "Ja, wir akzeptieren Kreditkarten sowie mobile Zahlungsmethoden, um Ihnen eine bequeme Bezahlung zu ermöglichen.",
+			"question": "Akzeptieren Sie Kreditkarten und mobile Zahlungen?"
+		},
+		{
+			"answer": "Ja, wir stellen Montageanleitungen für Möbel zur Verfügung, die Sie selbst zusammenbauen können, um Ihnen den Prozess zu erleichtern.",
+			"question": "Bieten Sie auch eine Montageanleitung für selbstmontierbare Möbel an?"
+		},
+		{
+			"answer": "Ja, wir bieten eine breite Auswahl an Möbeln für gewerbliche Einrichtungen wie Büros, Restaurants und Hotels an.",
+			"question": "Bieten Sie auch Möbel für gewerbliche Zwecke an?"
+		},
+		{
+			"answer": "Ja, wir bieten einen Aufbauservice vor Ort an, falls Sie dies bevorzugen. Unsere Mitarbeiter können Ihre Möbel in Ihrem Haus montieren, nachdem sie geliefert wurden. Bitte fragen Sie unser Personal nach den Kosten und der Verfügbarkeit.",
+			"question": "Bieten Sie einen Aufbauservice vor Ort an?"
+		}
+	],
+	"description": "Das porta Möbelhaus überzeugt mit seinem Möbel-Angebot auf Weltstadt-Niveau und liefert aktuelle Wohnideen für alle Bereiche des Wohnens und Einrichtens.   Das riesige Sortiment (Wohnzimmer, Polstermöbel, Esszimmer, Schlafzimmer, Bad/Wellness, Kinder- und Jugendzimmer, Küche, Büro, Flur/Diele, Teppiche) besticht durch Vielfalt und bekannte Marken wie z.B. hülsta, Rolf Benz oder nobilia-Küchen. Im Bereich Quartier gibt es zu einem großen Teil auch Mitnahme-Möbel. Ergänzt wird das porta Möbelangebot durch ein inspirierendes Boutique-Sortiment.",
+	"id": "4830464892373162990",
+	"key": "0:location-page:knowledgeGraph:44240350:de",
+	"locale": "de",
+	"logo": {
+		"image": {
+			"height": 1500,
+			"url": "https://a.mktgcdn.com/p-sandbox/BoqiQhql4Fl5zCwpcJGRcBEp89TkbCUqgM2or2P9f2c/1500x1500.jpg",
+			"width": 1500
+		}
+	},
+	"mainPhone": "+49302062590",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "de"
+	},
+	"name": "porta Möbel Berlin",
+	"paymentOptions": [
+		"ANDROIDPAY",
+		"APPLEPAY",
+		"Bar",
+		"CASH",
+		"ECKARTE",
+		"MAESTRO",
+		"MASTERCARD",
+		"VISA",
+		"VPAY",
+		"Überweisung"
+	],
+	"photoGallery": [
+		{
+			"image": {
+				"height": 375,
+				"url": "https://a.mktgcdn.com/p-sandbox/DfnoWuEaKcMsdEaprDSHbH8F-7xeGPSy9CJqnVPb98g/680x375.jpg",
+				"width": 680
+			}
+		}
+	],
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "berlin/direkt-an-der-b1/b5/porta-möbel-berlin",
+	"uid": 44240350
+}
