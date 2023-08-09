@@ -13,13 +13,22 @@ import PageLayout from "../components/PageLayout";
 import Paragraph from "../components/Paragraph";
 import ProductImage from "../components/ProductImage";
 import VStack from "../components/VStack";
+import FAQsAccordion from "../components/FAQsAccordion";
 
 export const config: TemplateConfig = {
   stream: {
     $id: "my-stream-id-2",
     localization: { locales: ["de"], primary: false },
     filter: { entityTypes: ["ce_events"] },
-    fields: ["name", "description", "time", "photoGallery", "slug"],
+    fields: [
+      "name",
+      "description",
+      "time",
+      "photoGallery",
+      "slug",
+      "c_featuredFAQs.question",
+      "c_featuredFAQs.answer",
+    ],
   },
 };
 export const getPath: GetPath<TemplateProps> = ({
@@ -65,6 +74,23 @@ const EventPage: Template<TemplateRenderProps> = ({
             alt="Light green backpack with black canvas straps and front zipper pouch."
           />
         </GridContainer>
+        <FAQsAccordion
+          faqs={[
+            {
+              question: `${document.c_featuredFAQs[0].question}`,
+              answer: `${document.c_featuredFAQs[0].answer}`,
+            },
+            {
+              question: `${document.c_featuredFAQs[1].question}`,
+              answer: `${document.c_featuredFAQs[1].answer}`,
+            },
+            {
+              question: `${document.c_featuredFAQs[2].question}`,
+              answer: `${document.c_featuredFAQs[2].answer}`,
+            },
+          ]}
+          title={`Häufig gestellte Fragen`}
+        />
       </CenteredContainer>
     </PageLayout>
   );
