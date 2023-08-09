@@ -84,10 +84,6 @@ const EventPage: Template<TemplateRenderProps> = ({
               question: `${document.c_featuredFAQs[1].question}`,
               answer: `${document.c_featuredFAQs[1].answer}`,
             },
-            {
-              question: `${document.c_featuredFAQs[2].question}`,
-              answer: `${document.c_featuredFAQs[2].answer}`,
-            },
           ]}
           title={`Häufig gestellte Fragen`}
         />
